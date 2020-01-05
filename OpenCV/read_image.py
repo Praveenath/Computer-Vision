@@ -11,3 +11,5 @@ cv2.imshow('Image',image_input)
 # Wait for keyboard input
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+cv2.imwrite('output.jpg', image_input)
